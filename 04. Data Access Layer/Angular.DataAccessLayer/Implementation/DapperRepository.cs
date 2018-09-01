@@ -9,7 +9,7 @@ namespace SMS.DataAccessLayer.Implementation
     public class DapperRepository : IDapperRepository, IDisposable
     {
         private readonly string _connectionString =
-           @"Data Source=.;Initial Catalog=SMS;Integrated Security=true;";
+           @"Data Source=MAHUA-PC\SQLEXPRESS;Initial Catalog=SMS;Integrated Security=true;";
 
         private readonly IDbConnection _conn;
         public DapperRepository()

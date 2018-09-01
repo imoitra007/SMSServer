@@ -6,7 +6,7 @@ namespace SMS.DataAccessLayer
     {
         public static MyDbContext GetContext()
         {
-            string connectionString = @"Data Source=.;Initial Catalog=SMS;Integrated Security=True";
+            string connectionString = @"Data Source=MAHUA-PC\SQLEXPRESS;Initial Catalog=SMS;Integrated Security=true";
             return  new MyDbContext(connectionString);
         }
     }

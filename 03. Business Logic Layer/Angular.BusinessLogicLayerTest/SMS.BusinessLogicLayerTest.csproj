@@ -57,6 +57,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="AdminManagerTest.cs" />
     <Compile Include="EncodingManagerTest.cs" />
     <Compile Include="UserManagerTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

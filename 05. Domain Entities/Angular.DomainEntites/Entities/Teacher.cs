@@ -2,7 +2,6 @@
 
 namespace SMS.DomainEntites.Entities
 {
-
     
     [DataContract]
     public class Teacher : BaseEntity

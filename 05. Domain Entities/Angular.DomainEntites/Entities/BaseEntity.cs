@@ -9,7 +9,7 @@ namespace SMS.DomainEntites.Entities
     public class BaseEntity
     {
         [DataMember]
-        public int Id { get; set; }
+        public string Id { get; set; }
 
         [DataMember]
         public DateTime CreatedOn { get; set; }

@@ -52,8 +52,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Implementations\AdminManager.cs" />
     <Compile Include="Implementations\EncodingManager.cs" />
     <Compile Include="Implementations\UserManager.cs" />
+    <Compile Include="Interfaces\IAdminManager.cs" />
     <Compile Include="Interfaces\IEncodingManager.cs" />
     <Compile Include="Interfaces\IUserManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

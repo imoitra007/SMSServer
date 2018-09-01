@@ -24,7 +24,7 @@ namespace SMS.DomainEntites.Entities
         public string PinCode { get; set; }
 
         [DataMember]
-        public string EmailId { get; set; }
+        public string Email { get; set; }
 
         [DataMember]
         public string ContactNumber { get; set; }
