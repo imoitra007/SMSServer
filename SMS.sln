@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Web Application", "01. Web Application", "{F1ABEF1C-9C31-4AC0-B6E7-43D7785445D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Distributed Services", "02. Distributed Services", "{4CD75EE2-7C62-4D36-BAC7-67F70E74D478}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Business Logic Layer", "03. Business Logic Layer", "{9C0F829A-5F10-47A5-8B55-838FC56AF87E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. Data Access Layer", "04. Data Access Layer", "{CF526C63-5A5C-4BCC-BF1C-BA89F6BD74AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05. Domain Entities", "05. Domain Entities", "{46F1E3B8-B2EC-4B0A-A4ED-00B275802CAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMS.DomainEntites", "05. Domain Entities\Angular.DomainEntites\SMS.DomainEntites.csproj", "{87AC5BE1-DA64-4A43-857A-6379247A2AE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMS.DataAccessLayer", "04. Data Access Layer\Angular.DataAccessLayer\SMS.DataAccessLayer.csproj", "{33F6EE23-49DD-4501-8A8E-9063BDEFCBC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMS.DataAccessLayerTest", "04. Data Access Layer\Angular.DataAccessLayerTest\SMS.DataAccessLayerTest.csproj", "{CC30D141-7909-48A3-9B0F-4170465D14AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMS.BusinessLogicLayer", "03. Business Logic Layer\Angular.BusinessLogicLayer\SMS.BusinessLogicLayer.csproj", "{E322523B-0EAF-4678-9EBE-5586139561BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMS.BusinessLogicLayerTest", "03. Business Logic Layer\Angular.BusinessLogicLayerTest\SMS.BusinessLogicLayerTest.csproj", "{711F7589-8BDE-4842-AF49-4B7F42306E4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMS.Services.WebAPI", "02. Distributed Services\Angular.Services.WebAPI\SMS.Services.WebAPI.csproj", "{0DE1A7FC-588A-4974-B50C-6C480F43C668}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87AC5BE1-DA64-4A43-857A-6379247A2AE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87AC5BE1-DA64-4A43-857A-6379247A2AE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87AC5BE1-DA64-4A43-857A-6379247A2AE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87AC5BE1-DA64-4A43-857A-6379247A2AE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33F6EE23-49DD-4501-8A8E-9063BDEFCBC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33F6EE23-49DD-4501-8A8E-9063BDEFCBC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33F6EE23-49DD-4501-8A8E-9063BDEFCBC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33F6EE23-49DD-4501-8A8E-9063BDEFCBC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC30D141-7909-48A3-9B0F-4170465D14AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC30D141-7909-48A3-9B0F-4170465D14AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC30D141-7909-48A3-9B0F-4170465D14AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC30D141-7909-48A3-9B0F-4170465D14AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E322523B-0EAF-4678-9EBE-5586139561BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E322523B-0EAF-4678-9EBE-5586139561BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E322523B-0EAF-4678-9EBE-5586139561BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E322523B-0EAF-4678-9EBE-5586139561BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{711F7589-8BDE-4842-AF49-4B7F42306E4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{711F7589-8BDE-4842-AF49-4B7F42306E4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{711F7589-8BDE-4842-AF49-4B7F42306E4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{711F7589-8BDE-4842-AF49-4B7F42306E4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DE1A7FC-588A-4974-B50C-6C480F43C668}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DE1A7FC-588A-4974-B50C-6C480F43C668}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DE1A7FC-588A-4974-B50C-6C480F43C668}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DE1A7FC-588A-4974-B50C-6C480F43C668}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{87AC5BE1-DA64-4A43-857A-6379247A2AE8} = {46F1E3B8-B2EC-4B0A-A4ED-00B275802CAA}
+		{33F6EE23-49DD-4501-8A8E-9063BDEFCBC1} = {CF526C63-5A5C-4BCC-BF1C-BA89F6BD74AA}
+		{CC30D141-7909-48A3-9B0F-4170465D14AE} = {CF526C63-5A5C-4BCC-BF1C-BA89F6BD74AA}
+		{E322523B-0EAF-4678-9EBE-5586139561BA} = {9C0F829A-5F10-47A5-8B55-838FC56AF87E}
+		{711F7589-8BDE-4842-AF49-4B7F42306E4C} = {9C0F829A-5F10-47A5-8B55-838FC56AF87E}
+		{0DE1A7FC-588A-4974-B50C-6C480F43C668} = {4CD75EE2-7C62-4D36-BAC7-67F70E74D478}
+	EndGlobalSection
+EndGlobal
