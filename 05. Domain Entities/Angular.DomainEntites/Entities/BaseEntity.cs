@@ -3,6 +3,8 @@ using System.Runtime.Serialization;
 
 namespace SMS.DomainEntites.Entities
 {
+
+    // This is the base class
     [DataContract]
     public class BaseEntity
     {

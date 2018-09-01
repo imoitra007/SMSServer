@@ -3,7 +3,7 @@
 namespace SMS.DomainEntites.Entities
 {
 
-    // This is the base class
+    
     [DataContract]
     public class Teacher : BaseEntity
     {
